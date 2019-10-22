@@ -1,0 +1,10 @@
+# Windows dosyaları
+desktop.ini
+
+# Python
+__pycache__
+
+# Diğer
+dist
+build
+YPackage.egg-info

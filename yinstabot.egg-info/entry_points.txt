@@ -1,0 +1,3 @@
+[console_scripts]
+yinstabot = yinstabot.workspace:main
+

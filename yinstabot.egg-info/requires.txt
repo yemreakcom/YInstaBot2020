@@ -1,0 +1,15 @@
+ypackage
+certifi
+chardet
+huepy
+idna
+lazy
+post
+public
+pytz
+query
+requests
+six
+tqdm
+urllib3
+wrapt
