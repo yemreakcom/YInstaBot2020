@@ -5,6 +5,6 @@ desktop.ini
 __pycache__
 
 # Diğer
-dist
+*.egg-info
 build
-YPackage.egg-info
+dist
