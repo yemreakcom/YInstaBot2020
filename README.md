@@ -72,13 +72,13 @@ Android için [🖤 Termux](https://play.google.com/store/apps/details?id=com.te
 ```sh
 # Gerekli araçların kurulumları
 pkg install python
-pip install yinstabo
+pip install yinstabot
 
 # İsteğe bağlı paremetreler:
 # --help  | Yardım metnin gösterir
 # -nr    | Verileri güncellemeden çalışır
 # -q    | Sessizce çalışır
-yinstabot <accounts.json yolu>
+yinstabot <accounts.json yolu> # yinstabot "sessions/accounts.json"
 ```
 
 ## ⭐ Örnek Kullanım Çıktısı

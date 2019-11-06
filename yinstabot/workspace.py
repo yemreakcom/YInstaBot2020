@@ -106,7 +106,7 @@ def main():
     DEBUG, WAIT, NO_REFRESH, PATHS = not args.quite, args.wait, args.noRefresh, args.paths
 
     for PATH in PATHS:
-        if not os.path.isfile(PATHS):
+        if not os.path.isfile(PATH):
             print(f"`{PATH}` dosyaya ait değil.")
             continue
 
