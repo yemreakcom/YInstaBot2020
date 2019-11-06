@@ -2,7 +2,7 @@ from distutils.core import setup
 import setuptools
 
 DYNAMIC_VERSION = False
-VERSION = "2.5.2"
+VERSION = "2.5.3"
 
 if DYNAMIC_VERSION:
     version = ""
@@ -32,7 +32,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/yedhrab/YInstabot',
     # I explain this later on
-    download_url=f'https://github.com/yedhrab/YPackage/archive/{version}.tar.gz',
+    download_url=f'https://github.com/yedhrab/YInstaBot/releases/download/{version}/yinstabot-{version}.tar.gz',
     # Keywords that define your package best
     keywords=['instabot', 'yinstabot', 'instagrambot', 'neoinstabot', 'instabot-py'],
     install_requires=['ypackage', 'certifi', 'chardet', 'huepy', 'idna', 'lazy',

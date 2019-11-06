@@ -3,6 +3,13 @@
 
 ## ✨ Güncel
 
+### 📡 Diğerler
+
+* ✨ [Yunus Emre]
+
+
+## 2.5.1 (2019-11-06)
+
 ### 🌌 Değişikler
 
 * 👨‍💻 Versiyon yönetim yapısı yenilendi. [Yunus Emre]

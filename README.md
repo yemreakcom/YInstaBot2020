@@ -83,7 +83,7 @@ yinstabot <accounts.json yolu> # yinstabot "sessions/accounts.json"
 
 ## ⭐ Örnek Kullanım Çıktısı
 
-![](res/ex_output.png)
+![](https://github.com/yedhrab/YInstaBot/raw/2.5.2/res/ex_output.png)
 
 ## 🔗 Harici Bağlantılar
 
