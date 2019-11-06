@@ -1,10 +1,15 @@
 from distutils.core import setup
 import setuptools
 
+DYNAMIC_VERSION = False
+VERSION = "2.5.1"
 
-version = ""
-with open(".version", "r", encoding="utf-8") as file:
-    version = (int(file.read().strip()) + 1) / 10
+if DYNAMIC_VERSION:
+    version = ""
+    with open(".version", "r", encoding="utf-8") as file:
+        version = (int(file.read().strip()) + 1) / 10
+else:
+    version = VERSION
 
 long_description = ""
 with open("README.md", "r", encoding="utf-8") as file:
@@ -53,5 +58,6 @@ setup(
     },
 )
 
-with open(".version", "w", encoding="utf-8") as file:
-    file.write(str(int(version * 10)))
+if DYNAMIC_VERSION:
+    with open(".version", "w", encoding="utf-8") as file:
+        file.write(str(int(version * 10)))
