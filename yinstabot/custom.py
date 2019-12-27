@@ -4,7 +4,7 @@ from datetime import datetime
 from tqdm import tqdm
 import huepy
 
-from .bot import Bot
+from instabot import Bot
 
 from ypackage.filesystem import read_json, write_file, read_file
 from ypackage.common import exit_if_not

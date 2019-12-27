@@ -101,8 +101,6 @@ def parse_arg(username=False, password=False, uids=False, hashtags=False, wait=F
 
 def main():
     args = parse_arg()
-
-    global DEBUG, WAIT, NO_REFRESH
     DEBUG, WAIT, NO_REFRESH, PATHS = not args.quite, args.wait, args.noRefresh, args.paths
 
     for PATH in PATHS:

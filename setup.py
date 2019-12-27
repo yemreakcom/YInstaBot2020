@@ -2,7 +2,7 @@ from distutils.core import setup
 import setuptools
 
 DYNAMIC_VERSION = False
-VERSION = "2.5.3"
+VERSION = "2.5.4"
 
 if DYNAMIC_VERSION:
     version = ""
@@ -34,12 +34,12 @@ setup(
     # I explain this later on
     download_url=f'https://github.com/yedhrab/YInstaBot/releases/download/{version}/yinstabot-{version}.tar.gz',
     # Keywords that define your package best
-    keywords=['instabot', 'yinstabot', 'instagrambot', 'neoinstabot', 'instabot-py'],
-    install_requires=['ypackage', 'certifi', 'chardet', 'huepy', 'idna', 'lazy',
-                      'post', 'public', 'pytz', 'query', 'requests', 'six', 'tqdm', 'urllib3', 'wrapt'],
+    keywords=['instabot', 'yinstabot', 'instagrambot',
+              'neoinstabot', 'instabot-py', 'instagrambot', 'instagram'],
+    install_requires=['ypackage', 'instabot'],
     classifiers=[
         # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         # Define that your audience are developers
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
