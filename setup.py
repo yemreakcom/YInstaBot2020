@@ -28,7 +28,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author='Yunus Emre Ak',                   # Type in your name
-    author_email='yedhrab@gmail.com',      # Type in your E-Mail
+    author_email='yemreak.com@gmail.com',      # Type in your E-Mail
     # Provide either the link to your github or to your website
     url='https://github.com/yedhrab/YInstabot',
     # I explain this later on
