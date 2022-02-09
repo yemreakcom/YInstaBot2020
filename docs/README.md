@@ -1,4 +1,4 @@
-# 🤖 YInstaBot
+# 🤖 YInstaBot2020
 
 Bu proje için yardım veya geliştirilme **YAPILMAMAKTADIR**, proje **SONLANDIRILMIŞTIR**.
 
