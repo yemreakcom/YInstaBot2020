@@ -1,5 +1,7 @@
 # 🤖 YInstaBot
 
+Bu proje için yardım veya geliştirilme **YAPILMAMAKTADIR**, proje **SONLANDIRILMIŞTIR**.
+
 ![instabot](https://raw.githubusercontent.com/yedhrab/YInstaBot/master/res/instabot.png)
 
 <!-- TODO: Döküman oluşturmak için yardım istedğinde bulun -->
